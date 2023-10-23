@@ -1,7 +1,9 @@
 *{
 
 }
-
+nav{
+  background-color: #1f8bff;
+}
 body{
 background: url(img/ninbg.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -12,7 +14,7 @@ background: url(img/ninbg.jpg)no-repeat center center fixed;
 
 h1,h2, h3, h4, h5, h6 {
   font-family: 'Press Start 2P', cursive;
-  color: #ffffff;
+  color: #ff6a00;
   width:100%;
   margin: auto;
 }
@@ -59,9 +61,10 @@ img{
 
 input[type=submit]{
   border: none;
+  border-radius: 15px;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: #ff9185;
+  background-color: #1f8bff;
   margin-top: 15px;
 }
 
@@ -91,4 +94,8 @@ input[type=submit]{
 .jumbotron {
   background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F03%2Fswitch-ecomm-2000.jpg");
   background-size: contain;
+}
+
+form{
+  border-radius: 30px;
 }
